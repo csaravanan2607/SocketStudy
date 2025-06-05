@@ -8,35 +8,35 @@ To perform a study on Socket Programming
 ## Understanding Socket Programming:
 	Socket programming involves the use of sockets, which serve as endpoints for communication. A socket is identified by an IP address and a port number, and it facilitates data transfer between a client and a server. The two main types of sockets are Stream Sockets, which provide a reliable, connection-oriented communication, and Datagram Sockets, which are connectionless and suitable for scenarios where reliability is less critical.
 ## Key Concepts in Socket Programming:
-1.Sockets
-•	A socket is a software representation of a communication endpoint in a network.
-•	It is identified by an IP address and a port number.
-•	Sockets can be classified into two main types: Stream Sockets and Datagram Sockets.
-•	Stream Sockets provide a reliable, connection-oriented communication, while Datagram Sockets are connectionless and operate in a best-effort mode.
+### 1. Sockets
+#### •	A socket is a software representation of a communication endpoint in a network.
+#### •	It is identified by an IP address and a port number.
+#### •	Sockets can be classified into two main types: Stream Sockets and Datagram Sockets.
+#### •	Stream Sockets provide a reliable, connection-oriented communication, while Datagram Sockets are connectionless and operate in a best-effort mode.
 
-2. Client-Server Model
+### 2. Client-Server Model
 
-•	Socket programming typically follows the client-server model.
-•	The server listens for incoming connections from clients, while clients initiate connections to the server.
-•	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
+#### •	Socket programming typically follows the client-server model.
+#### •	The server listens for incoming connections from clients, while clients initiate connections to the server.
+#### •	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
 
-3, TCP/IP Protocol:
+### 3. TCP/IP Protocol:
 
-•	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
-•	TCP provides reliable, connection-oriented communication, ensuring data integrity and order.
-•	IP facilitates the routing of data between devices in a network.
+#### •	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
+#### •	TCP provides reliable, connection-oriented communication, ensuring data integrity and order.
+#### •	IP facilitates the routing of data between devices in a network.
 
-4.Basic Socket Functions:
+### 4. Basic Socket Functions:
 
-•	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
-•	Examples of functions include socket(), bind(), listen(), accept(), connect(), send(), and recv().
+#### •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
+#### •	Examples of functions include socket(), bind(), listen(), accept(), connect(), send(), and recv().
 
-## Server-Side Operations:
+### Server-Side Operations:
 
-•	Servers create a socket using socket() and bind it to a specific IP address and port using bind().
-•	They then listen for incoming connections with listen() and accept connections with accept().
-•	Once a connection is establi
-•	shed, servers can send and receive data using send() and recv().
+#### •	Servers create a socket using socket() and bind it to a specific IP address and port using bind().
+#### •	They then listen for incoming connections with listen() and accept connections with accept().
+#### •	Once a connection is establi
+#### •	shed, servers can send and receive data using send() and recv().
 
 ## Client –Server Operations
 
